@@ -1,0 +1,159 @@
+ header {
+    background-color: darkgray;
+    position: fixed;
+    text-align: center;
+    padding: 5px;
+    left:0;
+    top: 2px;
+    z-index: 1;
+    width:100%;
+}
+
+
+header h1{
+    color:rgb(0, 255, 34);
+    border: 8px solid gold;
+    padding: 0px 12px;
+    display: inline-block;
+    border-radius: 30px;
+
+
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+   max-width: 100%;
+}
+.banner h2{
+    position: absolute;
+    top: 50%;
+    padding: 30px;
+    left:0px;
+    color:aliceblue;
+    background-color: orange;
+}
+.banner h2{
+    font-size: 35px;
+}
+
+nav{
+    background-color:  #F4F4F4;
+    padding: 20px; 
+    position: sticky;
+    top: 100px;
+    width: 98%;
+}
+nav ol{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size:  24px;
+}
+nav li a{
+    text-decoration: none;
+    color: forestgreen;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color:green;
+    font-size: 48px;
+
+}
+article p{
+    line-height: 2em;
+    color:black;
+}
+.image{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+  }
+  .image li{
+    display: inline-block;
+    list-style-type: none;
+    width: 40%;
+    margin: 20px 5%;
+    position: relative;
+  }
+  .image li:hover{
+    top: -4px;
+  }
+  .image li img{
+    max-width: 100%;
+}
+.join{
+    background-color: darkgray;
+    text-align: center;
+    font-size: 24%
+   padding: 4px 20px;
+}
+footer{
+   font-size: 20px;
+   background-color: black;
+   color: rgb(220, 235, 12);
+   padding: 0px 0;
+}
+nav li a:hover{
+    text-decoration: underline;
+    background-color: rgb(20, 138, 138);
+    padding: 3px;
+    color:aliceblue ;
+    
+}
+image li:hover{
+    position:relative;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    border-radius: 34px;
+}
+form input:valid{
+    border: 4px solid red;
+}
+section.join P::selection{
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width:1200px){
+   .banner  h2{
+    font-size: 60px;
+   }
+   nav li{
+       font-size: 18px;
+   }
+}
+@media screen and (mix-width:700px){
+    .banner  {
+     font-size: 28px;
+    }
+    nav li{
+        font-size: 18px;
+    }
+ }
+ @media screen and (max-width: 500px){
+
+    .banner {
+      font-size: 20px;
+      position: relative;
+      text-align: center;
+    }
+    .banner  br{
+      display: none;
+    }
+    .banner span{
+      font-size: 1em;
+    }
